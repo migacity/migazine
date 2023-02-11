@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+book/
+example/*.html
+/publication.json
+/*.css
+/*.css.map
