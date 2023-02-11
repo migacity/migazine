@@ -1,0 +1,10 @@
+@page {
+  // crop-offset: 3mm;
+
+  bleed: 0mm;
+  marks: none;
+
+  @top-left {
+    content: none;
+  }
+}
