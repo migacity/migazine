@@ -10,6 +10,7 @@ module.exports = {
     "example/illust-01.md",
     "example/illust-02.md",
     "example/text-01.md",
+    "example/listofworks.md",
     "example/colophon.md",
   ],
   output: [
