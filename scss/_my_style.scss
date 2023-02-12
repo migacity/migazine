@@ -57,6 +57,74 @@ html {
   margin-bottom: 10mm;
 }
 
+@page toc {}
+
+.toc {
+  page: toc;
+
+  nav li a {
+    color: black;
+    display: inline-flex;
+    width: 100%;
+    text-decoration: none;
+    break-inside: avoid;
+    align-items: baseline;
+  }
+
+  nav li a::before {
+    margin-left: 3px;
+    margin-right: 3px;
+    border-bottom: 1px dotted;
+    content: "";
+    order: 1;
+    flex: auto;
+  }
+
+  nav li a::after {
+    text-align: right;
+    content: target-counter(attr(href url), page);
+    align-self: flex-end;
+    flex: none;
+    order: 2;
+  }
+}
+
+@page low {}
+
+.low {
+  page: low;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li {
+    list-style-type: none;
+    width: 35mm;
+    background-color: #ddd;
+    margin-left: 3mm;
+
+    a {
+      color: black;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-decoration: none;
+      break-inside: avoid;
+      align-items: baseline;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        max-width: 25mm;
+        max-height: 25mm;
+      }
+    }
+  }
+}
+
 .illust-01 {
   page: illust-01;
   box-sizing: border-box;
@@ -174,8 +242,8 @@ html {
 
   .text-01 {
 
-  columns: 2;
-  column-gap: 5mm;
+    columns: 2;
+    column-gap: 5mm;
   }
 
   .social {
