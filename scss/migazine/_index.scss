@@ -8,11 +8,28 @@
 
   //background-size: contain;
   //background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/B5_honbun_color_tpl.png");
-  // ページ番号
+}
+
+// ページ番号
+@page :left {
   @top-left-corner {
     content: counter(page);
     top: 248mm;
-    left: 94mm;
+    left: 14mm;
+    //left: 94mm;
+    font-size: 0.6rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+@page :right {
+  @top-left-corner {
+    content: counter(page);
+    top: 248mm;
+    left: 172mm;
     font-size: 0.6rem;
     height: 1.5rem;
     width: 1.5rem;

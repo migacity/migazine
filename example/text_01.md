@@ -3,7 +3,10 @@ title: MIGAZINEのつくりかた
 class: text_01
 ---
 
-# MIGAZINEのつくりかた
+<div class="text-header">
+    <div class="text-title">MIGAZINEのつくりかた</div>
+</div>
+<div class="text-main">
 
 ## introduction
 
@@ -43,3 +46,4 @@ Vivliostyleは、ウェブサイトのレイアウトをするためのCSSとい
 - 原稿の投稿・レイアウトプレビューをするウェブアプリもしくはDiscordボット（のたたき台）が作れるかも？
 
 ## まとめ
+</main>

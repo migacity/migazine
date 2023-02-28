@@ -1,5 +1,5 @@
 @page toc_01 {
-    margin: 40mm 60mm;
+    //margin: 40mm 60mm;
 }
 
 .toc_01 {
@@ -9,6 +9,11 @@
         font-weight: 700;
         text-align: center;
         margin-bottom: 2rem;
+    }
+
+    .toc-wrapper {
+        max-width: 100mm;
+        margin: 40mm auto 0;
     }
 
     ul,
