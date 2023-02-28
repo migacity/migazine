@@ -1,0 +1,31 @@
+@page list-of-works-01 {}
+.list-of-works_01 {
+  page: low;
+}
+.list-of-works_01 ul {
+  display: flex;
+  flex-direction: row;
+}
+.list-of-works_01 li {
+  list-style-type: none;
+  width: 35mm;
+  margin-left: 3mm;
+}
+.list-of-works_01 li a {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-decoration: none;
+  break-inside: avoid;
+  align-items: baseline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-of-works_01 li a img {
+  max-width: 25mm;
+  max-height: 25mm;
+}
+
+/*# sourceMappingURL=list-of-works_01.css.map */

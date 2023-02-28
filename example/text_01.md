@@ -1,6 +1,6 @@
 ---
 title: MIGAZINEのつくりかた
-class: text-01
+class: text_01
 ---
 
 # MIGAZINEのつくりかた

@@ -1,0 +1,44 @@
+@page illust_01 {
+  margin: 0;
+}
+.illust_01 {
+  page: illust_01;
+}
+.illust_01 .page-header {
+  max-width: 140mm;
+  margin: 12mm auto 1rem;
+  display: flex;
+}
+.illust_01 .page-header .illust-author {
+  flex: 1;
+  font-family: "Inter", "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1;
+  vertical-align: top;
+  margin-top: 0;
+}
+.illust_01 .page-header .social {
+  flex: 2;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  text-align: right;
+}
+.illust_01 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 140mm;
+}
+.illust_01 .illust-title {
+  font-family: "Noto Sans JP", sans-serif;
+  max-width: 140mm;
+  margin: 0.5rem auto;
+}
+.illust_01 .illust-message {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.8rem;
+  max-width: 140mm;
+  margin: 0.5rem auto;
+}
+
+/*# sourceMappingURL=illust_01.css.map */

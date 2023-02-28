@@ -1,0 +1,39 @@
+@page text_01 {
+  margin-left: 18mm;
+  margin-right: 18mm;
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+}
+.text_01 {
+  page: text_01;
+  box-sizing: border-box;
+}
+.text_01 .text_01 {
+  columns: 2;
+  column-gap: 5mm;
+}
+.text_01 .social {
+  position: absolute;
+  top: 0;
+  left: 110mm;
+}
+.text_01 h1 {
+  margin-top: 0;
+}
+.text_01 figure {
+  margin: 0;
+}
+.text_01 figure figcaption {
+  text-align: left;
+  margin-top: 0.5rem;
+  font-size: 9pt;
+  margin-bottom: 0;
+}
+.text_01 img {
+  float: left;
+  margin-top: 0mm;
+  margin-left: 0mm;
+  max-width: 146mm;
+}
+
+/*# sourceMappingURL=text_01.css.map */

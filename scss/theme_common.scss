@@ -10,8 +10,8 @@
 html {
   orphans: 1;
   widows: 1;
-  font-family: sans-serif;
-  font-size: 10pt;
+  font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  font-size: 9pt;
 }
 
 title {
@@ -21,7 +21,7 @@ title {
 }
 
 @page {
-  size: A5;
+  size: JIS-B5;
 }
 
 // Left/right page layout
@@ -32,27 +32,27 @@ title {
 
 @page :left {
   @top-left {
-    content: counter(page) '　' string(doc-title);
+    //content: counter(page) '　' string(doc-title);
   }
 }
 
 @page :right {
   @top-right {
-    content: counter(page);
+    //content: counter(page);
   }
 }
 
-@import '_variables';
-@import '_vfm_code';
-@import '_vfm_footnotes';
-@import '_vfm_frontmatter';
-@import '_vfm_hard_new_line';
-@import '_vfm_image';
-@import '_vfm_math_equation';
-@import '_vfm_raw_html';
-@import '_vfm_ruby';
-@import '_vfm_sectionization';
+@import 'default/_variables';
+@import 'default/_vfm_code';
+@import 'default/_vfm_footnotes';
+@import 'default/_vfm_frontmatter';
+@import 'default/_vfm_hard_new_line';
+@import 'default/_vfm_image';
+@import 'default/_vfm_math_equation';
+@import 'default/_vfm_raw_html';
+@import 'default/_vfm_ruby';
+@import 'default/_vfm_sectionization';
 
-@import '_my_style';
+@import 'migazine/_index.scss';
 
 /* and more... 🖋 */

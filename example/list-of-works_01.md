@@ -1,5 +1,5 @@
 ---
-class: "low"
+class: "list-of-works_01"
 ---
 
 # 掲載作品一覧

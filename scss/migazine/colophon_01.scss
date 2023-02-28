@@ -1,0 +1,19 @@
+@page colophon_01 {}
+
+.colophon_01 {
+  page: colophon_01;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  ul {
+    width: fit-content;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+  }
+}

@@ -1,5 +1,5 @@
 ---
-class: "colophon"
+class: "colophon_01"
 ---
 
 ## MIGAZINE No.2

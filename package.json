@@ -2,7 +2,7 @@
   "name": "vivliostyle-theme-migazine",
   "description": "Migazine theme",
   "version": "0.1.0",
-  "author": "idomshi <Your email>",
+  "author": "migacity",
   "scripts": {
     "build": "run-p build:scss build:vivliostyle",
     "build:scss": "sass scss:.",
@@ -33,7 +33,7 @@
   "vivliostyle": {
     "theme": {
       "name": "Vivliostyle Theme Migazine",
-      "author": "idomshi <Your email>",
+      "author": "migacity",
       "style": "./theme_print.css",
       "category": "magazine",
       "topics": []

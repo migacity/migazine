@@ -1,0 +1,46 @@
+@page toc_01 {
+  margin: 40mm 60mm;
+}
+.toc_01 {
+  page: toc_01;
+}
+.toc_01 .index {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.toc_01 ul,
+.toc_01 ol {
+  padding-inline-start: 0px;
+}
+.toc_01 li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+  list-style: none;
+}
+.toc_01 li a {
+  display: inline-flex;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+  break-inside: avoid;
+  align-items: baseline;
+}
+.toc_01 li a:before {
+  content: "";
+  flex: auto;
+  order: 1;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-bottom: 1px dotted;
+}
+.toc_01 li a:after {
+  content: target-counter(attr(href url), page);
+  flex: none;
+  order: 2;
+  text-align: right;
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=toc_01.css.map */
