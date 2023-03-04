@@ -1,16 +1,47 @@
 @page text_01 {
     //margin-left: 18mm;
     //margin-right: 18mm;
-    //margin-top: 10mm;
-    //margin-bottom: 10mm;
+    margin-top: 18mm; // 4mm + 3.5mm * 4
+    margin-bottom: 31mm; // 3mm + 3.5mm * 7
 }
+
+// ページ番号
+@page text_01:left {
+    @top-left-corner {
+      content: counter(page);
+      top: 3.5mm * 66;
+      left: 3mm + 3.5mm * 3;
+      //left: 94mm;
+      font-size: 0.6rem;
+      height: 3.5mm;
+      width: 3.5mm;
+      text-align: center;
+      vertical-align: middle;
+      background-color: rgba(255,255,255, 60%);
+    }
+  }
+  
+  @page text_01:right {
+    @top-left-corner {
+      content: counter(page);
+      top: 3.5mm * 66;
+      left: 3mm + 3.5mm * 50;
+      font-size: 0.6rem;
+      height: 1.5rem;
+      width: 1.5rem;
+      text-align: center;
+      vertical-align: middle;
+      background-color: rgba(255,255,255, 60%);
+    }
+  }
 
 .text_01 {
     page: text_01;
+    font-family:"Noto Serif JP";
     box-sizing: border-box;
 
     max-width: 140mm;
-    margin: 12mm auto 1rem;
+    margin: 0 auto;
 
     .text-header {
         display: block;
@@ -26,6 +57,7 @@
         columns: 2;
         column-gap: 8mm;
         text-align: justify;
+        //margin-bottom: 3mm;
     }
 
     .social {
