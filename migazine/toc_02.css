@@ -1,0 +1,137 @@
+@page toc_02 {}
+p {
+  margin-top: 0;
+}
+
+.toc_02 {
+  page: toc_02;
+}
+.toc_02 .toc-wrapper {
+  display: flex;
+  height: 263mm;
+}
+.toc_02 .toc-wrapper .toc-left {
+  flex: 2;
+}
+.toc_02 .toc-wrapper .toc-left .toc-title {
+  display: table;
+  width: 100%;
+  height: 21mm;
+  margin-top: 4mm;
+}
+.toc_02 .toc-wrapper .toc-left .toc-title .toc-title-text {
+  display: table-cell;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+}
+.toc_02 .toc-wrapper .toc-left .toc-info {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 238mm;
+}
+.toc_02 .toc-wrapper .toc-left .toc-info .toc-caption {
+  padding-top: 7mm;
+  margin-left: 10mm;
+  border-bottom: 1px solid black;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.toc_02 .toc-wrapper .toc-left .toc-text {
+  margin-top: 3.5mm;
+  margin-left: 10mm;
+  margin-right: 10mm;
+  margin-bottom: 3.5mm;
+}
+.toc_02 .toc-wrapper .toc-right {
+  flex: 3;
+  margin-top: 4mm;
+  margin-right: 4mm;
+  padding-top: 7mm;
+  padding-left: 7mm;
+  padding-right: 14mm;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 243mm;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-cover-illust {
+  flex: 1;
+  margin-bottom: 14mm;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-cover-illust .toc-cover-illust-wrapper {
+  display: flex;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-cover-illust .toc-cover-illust-wrapper .toc-cover-illust-left {
+  flex: 2;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-cover-illust .toc-cover-illust-wrapper .toc-cover-illust-right {
+  flex: 1;
+  margin-left: 7mm;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-info {
+  flex: 2;
+  margin-bottom: 14mm;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-contribution {
+  flex: 1;
+  margin-bottom: 14mm;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-contribution .toc-contribution-wrapper {
+  display: flex;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-contribution .toc-contribution-wrapper .toc-url {
+  flex: 2;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-contribution .toc-contribution-wrapper .toc-qr {
+  flex: 1;
+  text-align: right;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-contribution .toc-contribution-wrapper .toc-qr img {
+  width: 21mm;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.2rem;
+  letter-spacing: 0.2rem;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-list {
+  line-height: 2rem;
+  padding-inline-start: 0px;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-list li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.toc_02 li a {
+  display: inline-flex;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+  break-inside: avoid;
+  align-items: baseline;
+}
+.toc_02 li a:before {
+  content: "";
+  flex: auto;
+  order: 1;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-bottom: 1px dotted;
+}
+.toc_02 li a:after {
+  content: target-counter(attr(href url), page);
+  flex: none;
+  order: 2;
+  text-align: right;
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=toc_02.css.map */

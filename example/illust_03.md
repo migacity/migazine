@@ -1,16 +1,8 @@
 ---
 title: title
 author: you know who
-class: illust_02
+class: illust_03
 ---
 
-<div class="page-header">
-<div class="illust-author">作者名</div>
-<div class="social">
-twitter ID: xxxxxxxx<br />
-pixiv ID: 000000
-</div>
-</div>
-<img src="2508x2508.png" />
-<div class='illust-title' style="">作品名</div>
+<img src="forest-girl.png" />
 

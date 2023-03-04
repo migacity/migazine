@@ -4,9 +4,13 @@ module.exports = {
   entry: [
     "example/inside-cover_01.md",
     {
-      path: "example/toc_01.md",
+      path: "example/toc_02.md",
       rel: 'contents',
     },
+    "example/chapter_01.md",
+    "example/chapter_02.md",
+    "example/chapter_03.md",
+    "example/illust-yusan.md",
     "example/illust_01.md",
     "example/illust_02.md",
     "example/illust_03.md",

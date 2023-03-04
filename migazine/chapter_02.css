@@ -1,0 +1,52 @@
+@page chapter_02 {}
+p {
+  margin-top: 0;
+}
+
+.chapter_02 {
+  page: chapter_02;
+}
+.chapter_02 .chapter-warapper {
+  background-color: rgb(54, 167, 161);
+  display: block;
+  width: 188mm;
+  height: 60mm;
+}
+.chapter_02 .chapter-warapper .chapter-number {
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  color: white;
+  font-size: 3rem;
+  width: 155mm;
+  height: 21mm;
+  line-height: 21mm;
+  padding-left: 3.5mm;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+  top: 11mm;
+  left: 108mm;
+  margin-bottom: 1rem;
+}
+.chapter_02 .chapter-warapper .chapter-title {
+  position: relative;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-right: 10mm;
+  top: 10.5mm;
+  left: 108mm;
+}
+.chapter_02 .chapter-warapper .chapter-text {
+  position: relative;
+  padding-right: 10mm;
+  line-height: 1.5rem;
+  top: 10.5mm;
+  left: 108mm;
+}
+.chapter_02 .chapter-illust {
+  width: 188mm;
+  height: 203mm;
+}
+
+/*# sourceMappingURL=chapter_02.css.map */

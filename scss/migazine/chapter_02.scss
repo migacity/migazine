@@ -1,0 +1,55 @@
+@page chapter_02 {
+    //margin: 40mm 60mm;
+}
+
+p {
+    margin-top: 0;
+}
+
+.chapter_02 {
+    page: chapter_02;
+    .chapter-warapper {
+        background-color: rgb(54, 167, 161);
+        display: block;
+        width: 188mm;
+        height: 4mm + 3.5mm * 16;
+        //margin-top: 4mm + 3.5mm * 2;
+        //margin-left: 188mm - calc(3mm + 3.5mm * 26);
+        .chapter-number {
+            display: inline-block;
+            position: relative;
+            background-color: black;
+            color: white;
+            font-size: 3rem;
+            width: 263mm - calc(3mm + 3.5mm * 30);
+            height: 3.5mm * 6;
+            line-height: 3.5mm * 6;
+            padding-left: 3.5mm;
+            letter-spacing: 0.5rem;
+            font-weight: 700;
+            top: 4mm + 3.5mm * 2;
+            left: 3mm + 3.5mm * 30;
+            margin-bottom: 1rem;
+        }
+        .chapter-title {
+            position: relative;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            padding-right: 3mm + 7mm;
+            top: 3.5mm * 3;
+            left: 3mm + 3.5mm * 30;
+        }
+        .chapter-text {
+            position: relative;
+            padding-right: 3mm + 7mm;
+            line-height: 1.5rem;
+            top: 3.5mm * 3;
+            left: 3mm + 3.5mm * 30;
+        }
+    }
+    .chapter-illust {
+        width: 188mm;
+        height: 263mm - calc(4mm + 3.5mm * 16);
+    }
+}

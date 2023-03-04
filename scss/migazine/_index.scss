@@ -3,38 +3,44 @@
 @import url("https://fonts.googleapis.com/earlyaccess/notosansjp.css");
 
 @page {
-  size: JIS-B5;
+  size: 188mm 263mm; // JIS-B5
   margin: 0;
 
-  //background-size: contain;
+  background-position: center;
+  background-size: 100%;
+  background-origin: border-box;
+  //background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/grid-system_52x75_jis-b5.png");
   //background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/B5_honbun_color_tpl.png");
+  background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/B5_honbun_color_tpl_border.png");
 }
 
 // ページ番号
 @page :left {
   @top-left-corner {
     content: counter(page);
-    top: 248mm;
-    left: 14mm;
+    top: 4mm + 3.5mm * 71;
+    left: 3mm + 3.5mm * 3;
     //left: 94mm;
     font-size: 0.6rem;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 3.5mm;
+    width: 3.5mm;
     text-align: center;
     vertical-align: middle;
+    background-color: rgba(255,255,255, 60%);
   }
 }
 
 @page :right {
   @top-left-corner {
     content: counter(page);
-    top: 248mm;
-    left: 172mm;
+    top: 4mm + 3.5mm * 71;
+    left: 3mm + 3.5mm * 50;
     font-size: 0.6rem;
     height: 1.5rem;
     width: 1.5rem;
     text-align: center;
     vertical-align: middle;
+    background-color: rgba(255,255,255, 60%);
   }
 }
 
@@ -45,8 +51,12 @@ html {
 
 @import 'inside-cover_01';
 @import 'toc_01';
+@import 'toc_02';
 @import 'list-of-works_01';
 @import 'illust_01';
 @import 'illust_02';
 @import 'colophon_01';
 @import 'text_01';
+@import 'chapter_01';
+@import 'chapter_02';
+@import 'chapter_03';

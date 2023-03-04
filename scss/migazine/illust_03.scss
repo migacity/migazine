@@ -1,0 +1,36 @@
+@page illust-02 {
+    margin: 0;
+}
+
+.illust_02 {
+    page: illust_02;
+
+    .page-header {
+        max-width: 140mm;
+        margin: 12mm auto 1rem;
+        display: flex;
+
+        .illust-author {
+            flex: 1;
+            font-family: "Inter", "Noto Sans JP", sans-serif;
+            font-weight: 700;
+            font-size: 1.6rem;
+            line-height: 1;
+            vertical-align: top;
+            margin-top: 0;
+        }
+
+        .social {
+            flex: 2;
+            font-family: "Inter", sans-serif;
+            font-size: 0.8rem;
+            text-align: right;
+        }
+    }
+
+    .illust-title {
+        font-family: "Noto Sans JP", sans-serif;
+        max-width: 140mm;
+        margin: 0.5rem auto;
+    }
+}

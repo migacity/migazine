@@ -1,0 +1,38 @@
+@page chapter_01 {
+    //margin: 40mm 60mm;
+}
+
+p {
+    margin-top: 0;
+}
+
+.chapter_01 {
+    page: chapter_01;
+    .chapter-warapper {
+        display: block;
+        width: 3mm + 3.5mm * 26;
+        margin-top: 4mm + 3.5mm * 28;
+        margin-left: 188mm - calc(3mm + 3.5mm * 26);
+        .chapter-number {
+            background-color: black;
+            color: white;
+            font-size: 3rem;
+            height: 3.5mm * 6;
+            line-height: 3.5mm * 6;
+            padding-left: 3.5mm;
+            letter-spacing: 0.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .chapter-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            padding-right: 3mm + 7mm;
+        }
+        .chapter-text {
+            padding-right: 3mm + 7mm;
+            line-height: 1.5rem;
+        }
+    }
+}

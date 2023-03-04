@@ -6,8 +6,8 @@
     page: illust_01;
 
     .page-header {
-        max-width: 140mm;
-        margin: 12mm auto 1rem;
+        max-width: 3.5mm * 42;
+        margin: calc(4mm + 3.5mm * 2) auto 1rem;
         display: flex;
 
         .illust-author {
@@ -31,19 +31,19 @@
     img {
         display: block;
         margin: 0 auto;
-        max-width: 140mm;
+        max-width: 3.5mm * 42;
     }
 
     .illust-title {
         font-family: "Noto Sans JP", sans-serif;
-        max-width: 140mm;
+        max-width: 3.5mm * 42;
         margin: 0.5rem auto;
     }
 
     .illust-message {
         font-family: "Noto Sans JP", sans-serif;
         font-size: 0.8rem;
-        max-width: 140mm;
+        max-width: 3.5mm * 42;
         margin: 0.5rem auto;
     }
 }
