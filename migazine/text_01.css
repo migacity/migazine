@@ -56,6 +56,10 @@
   column-gap: 8mm;
   text-align: justify;
 }
+.text_01 .text-main p {
+  text-indent: 1rem;
+  margin-bottom: 0.05rem;
+}
 .text_01 .social {
   position: absolute;
   top: 0;
@@ -93,6 +97,10 @@
   margin-top: 0mm;
   margin-left: 0mm;
   max-width: 146mm;
+}
+.text_01 pre {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=text_01.css.map */
