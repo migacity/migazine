@@ -5,6 +5,7 @@ class: text_01
 
 <div class="text-header">
     <div class="text-title">Vivliostyleのここが好き</div>
+    <div class="text-author">idomshi</div>
 </div>
 <div class="text-main">
 

@@ -1,11 +1,11 @@
 @page text_01 {
-  margin-top: 18mm;
+  margin-top: 14.5mm;
   margin-bottom: 31mm;
 }
 @page text_01:left {
   @top-left-corner {
     content: counter(page);
-    top: 231mm;
+    top: 234.5mm;
     left: 13.5mm;
     font-size: 0.6rem;
     height: 3.5mm;
@@ -18,7 +18,7 @@
 @page text_01:right {
   @top-left-corner {
     content: counter(page);
-    top: 231mm;
+    top: 234.5mm;
     left: 178mm;
     font-size: 0.6rem;
     height: 1.5rem;
@@ -37,12 +37,19 @@
 }
 .text_01 .text-header {
   display: block;
-  font-size: 2rem;
-  font-weight: 700;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   margin-bottom: 2rem;
   padding: 1.6rem 0;
+}
+.text_01 .text-header .text-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.text_01 .text-header .text-author {
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 .text_01 .text-main {
   columns: 2;

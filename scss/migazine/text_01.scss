@@ -1,7 +1,7 @@
 @page text_01 {
     //margin-left: 18mm;
     //margin-right: 18mm;
-    margin-top: 18mm; // 4mm + 3.5mm * 4
+    margin-top: 14.5mm; // 4mm + 3.5mm * 4
     margin-bottom: 31mm; // 3mm + 3.5mm * 7
 }
 
@@ -9,7 +9,7 @@
 @page text_01:left {
     @top-left-corner {
       content: counter(page);
-      top: 3.5mm * 66;
+      top: 3.5mm * 67;
       left: 3mm + 3.5mm * 3;
       //left: 94mm;
       font-size: 0.6rem;
@@ -24,7 +24,7 @@
   @page text_01:right {
     @top-left-corner {
       content: counter(page);
-      top: 3.5mm * 66;
+      top: 3.5mm * 67;
       left: 3mm + 3.5mm * 50;
       font-size: 0.6rem;
       height: 1.5rem;
@@ -45,12 +45,19 @@
 
     .text-header {
         display: block;
-        font-size: 2rem;
-        font-weight: 700;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
         margin-bottom: 2rem;
         padding: 1.6rem 0;
+        .text-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        .text-author {
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
     }
 
     .text-main {
