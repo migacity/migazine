@@ -3,6 +3,14 @@ title: Vivliostyleのここが好き
 class: text_01
 ---
 
+<div class="chapter-warapper-left">
+  <div class="chapter-bar">
+    <div class="chapter-number">essays</div>
+  </div>
+  <!--<div class="chapter-title">イラストレーション</div>-->
+  <!--<div class="chapter-text">Illust</div>-->
+</div>
+
 <div class="text-header">
     <div class="text-title">Vivliostyleのここが好き</div>
     <div class="text-author">idomshi</div>

@@ -103,5 +103,100 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.text_01 .chapter-warapper-left {
+  font-family: "Inter", "Noto Sans JP";
+  position: absolute;
+  top: 14mm;
+  margin-left: -31.5mm;
+  transform: rotate(90deg);
+  display: inline-block;
+}
+.text_01 .chapter-warapper-left .chapter-bar {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  width: 38.5mm;
+  height: 21mm;
+  top: 7.5mm;
+  left: 10mm;
+  padding: 0.3mm;
+}
+.text_01 .chapter-warapper-left .chapter-number {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  line-height: 10.5mm;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.text_01 .chapter-warapper-left .chapter-title {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 7mm;
+  line-height: 7mm;
+  text-align: right;
+  font-size: 6pt;
+}
+.text_01 .chapter-warapper-left .chapter-text {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 11mm;
+  text-align: right;
+  line-height: 1.5rem;
+}
+.text_01 .chapter-warapper-right {
+  position: absolute;
+  top: 35mm;
+  left: 157.5mm;
+  transform: rotate(270deg);
+  display: inline-block;
+}
+.text_01 .chapter-warapper-right .chapter-bar {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  width: 38.5mm;
+  height: 21mm;
+  top: 7.5mm;
+  left: 10mm;
+  padding: 0.3mm;
+}
+.text_01 .chapter-warapper-right .chapter-number {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  line-height: 10.5mm;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.text_01 .chapter-warapper-right .chapter-title {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 7mm;
+  line-height: 7mm;
+  text-align: right;
+  font-size: 6pt;
+}
+.text_01 .chapter-warapper-right .chapter-text {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 11mm;
+  text-align: right;
+  line-height: 1.5rem;
+}
 
 /*# sourceMappingURL=text_01.css.map */

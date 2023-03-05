@@ -91,12 +91,25 @@
   width: 154mm;
   margin: 21.5mm auto 0;
 }
+.illust_04 .illust-message {
+  margin-left: 17mm;
+}
+.illust_04 .illust-image-middle {
+  display: table;
+  width: 154mm;
+  height: 200mm;
+  margin: 21.5mm auto 0;
+}
+.illust_04 .illust-image-middle .illust-image-column {
+  display: table-cell;
+  vertical-align: middle;
+}
+.illust_04 .illust-image-middle .illust-image-column .illust-message {
+  margin-left: 0;
+}
 .illust_04 .illust-image-right {
   width: 154mm;
   margin: 18mm auto 0;
-}
-.illust_04 .illust-message {
-  margin-left: 17mm;
 }
 .illust_04 .chapter-warapper {
   position: absolute;

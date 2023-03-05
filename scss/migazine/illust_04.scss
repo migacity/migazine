@@ -54,6 +54,26 @@
         margin: calc(4mm + 3.5mm * 5) auto 0;
     }
 
+    .illust-message {
+        margin-left: 3mm + 3.5 * 4;
+    }
+
+    .illust-image-middle {
+        //position: relative;
+        //top: 4mm + 3.5mm * 5;
+        display: table;
+        width: 3.5mm * 44;
+        height: 200mm;
+        margin: calc(4mm + 3.5mm * 5) auto 0;
+        .illust-image-column {
+            display: table-cell;
+            vertical-align: middle;
+            .illust-message {
+                margin-left: 0;
+            }
+        }
+    }
+
     .illust-image-right {
         //position: relative;
         //top: 4mm + 3.5mm * 5;
@@ -61,9 +81,7 @@
         margin: calc(4mm + 3.5mm * 4) auto 0;
     }
 
-    .illust-message {
-        margin-left: 3mm + 3.5 * 4;
-    }
+    
 
     img {
         
