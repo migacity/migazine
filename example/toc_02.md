@@ -30,7 +30,7 @@ class: "toc_02"
                         <p>このイラストは、そんな自然に対する憧れの現れなのかもしれません</p>
                     </div>
                     <div class="toc-cover-illust-right">
-                        <img src="forest-girl.png" />
+                        <img src="image/forest-girl.png" />
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@ class: "toc_02"
                         <p>https://forms.migazine.example/</p>
                     </div>
                     <div class="toc-qr">
-                        <img src="QR_747040.png" />
+                        <img src="image/QR_747040.png" />
                     </div>
                 </div>
             </div>

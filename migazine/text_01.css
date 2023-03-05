@@ -55,6 +55,7 @@
   columns: 2;
   column-gap: 8mm;
   text-align: justify;
+  word-break: break-all;
 }
 .text_01 .text-main p {
   text-indent: 1rem;

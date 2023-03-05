@@ -1,0 +1,52 @@
+@page chapter_04 {}
+p {
+  margin-top: 0;
+}
+
+.chapter_04 {
+  page: chapter_04;
+}
+.chapter_04 .chapter-warapper {
+  display: block;
+  width: 188mm;
+}
+.chapter_04 .chapter-warapper .chapter-bar {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1mm solid black;
+  width: 42mm;
+  height: 7mm;
+  top: 7.5mm;
+  left: 0;
+}
+.chapter_04 .chapter-warapper .chapter-number {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  line-height: 7mm;
+  width: 100%;
+  text-align: right;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.chapter_04 .chapter-warapper .chapter-title {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 7mm;
+  line-height: 7mm;
+  text-align: right;
+  font-size: 6pt;
+}
+.chapter_04 .chapter-warapper .chapter-text {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 11mm;
+  text-align: right;
+  line-height: 1.5rem;
+}
+
+/*# sourceMappingURL=chapter_04.css.map */

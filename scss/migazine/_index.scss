@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/earlyaccess/notosansjp.css");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&display=swap');
 
 @page {
   size: 188mm 263mm; // JIS-B5
@@ -10,9 +12,9 @@
   background-position: center;
   background-size: 100%;
   background-origin: border-box;
-  //background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/grid-system_52x75_jis-b5.png");
-  //background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/B5_honbun_color_tpl.png");
-  background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/B5_honbun_color_tpl_border.png");
+  //background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/image/grid-system_52x75_jis-b5.png");
+  //background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/image/B5_honbun_color_tpl.png");
+  background-image: url("file:///Users/dolphilia/Documents/github/vivliostyle-theme-migazine/example/image/B5_honbun_color_tpl_border.png");
 }
 
 // ページ番号
@@ -56,8 +58,10 @@ html {
 @import 'list-of-works_01';
 @import 'illust_01';
 @import 'illust_02';
+@import 'illust_04';
 @import 'colophon_01';
 @import 'text_01';
 @import 'chapter_01';
 @import 'chapter_02';
 @import 'chapter_03';
+@import 'chapter_04';

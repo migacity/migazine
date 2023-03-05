@@ -4,5 +4,5 @@ author: you know who
 class: illust_03
 ---
 
-<img src="forest-girl.png" />
+<img src="image/forest-girl.png" />
 
