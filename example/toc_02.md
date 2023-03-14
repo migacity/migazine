@@ -4,7 +4,7 @@ class: "toc_02"
 
 <div class="toc-wrapper">
     <div class="toc-left">
-        <div class="toc-title"><div class="toc-title-text">MIGAZINE No.x</div></div>
+        <div class="toc-title"><div class="toc-title-text">MIGAZINE No.2</div></div>
         <div class="toc-info">
             <div class="toc-caption">MIGAZINEとは</div>
             <div class="toc-text">MIGAZINEは同人活動で制作している合同誌です。創作を主要なテーマに、さまざまなジャンルを取り扱っています。本誌の目的は読者や作者の創作意欲を向上させることです。</div>
@@ -35,8 +35,9 @@ class: "toc_02"
                 </div>
             </div>
             <div class="toc-info">
-                <div class="toc-title">参加メンバー</div>
+                <div class="toc-title">目次</div>
                 <ol class="toc-list">
+                    <span style="font-weight:bold;">Illustration</span>
                     <li><a href="illust-dolphilia.html">dolphilia</a></li>
                     <li><a href="illust-yusan.html">ゆぅさん</a></li>
                     <li><a href="illust-mirakure.html">ミラクレ</a></li>
@@ -52,7 +53,9 @@ class: "toc_02"
                     <li><a href="illust-ketosu.html">けとす</a></li>
                     <li><a href="illust-tachiban_a.html">たちばん</a></li>
                     <li><a href="illust-tabibito_a.html">ある旅人</a></li>
-                    <li><a href="text-jquery-idomshi.html">idomshi</a></li>
+                    <br />
+                    <span style="font-weight:bold;">Essays</span>
+                    <li><a href="text-jquery-idomshi.html">idomshi</a>
                 </ol>
             </div>
             <div class="toc-contribution">

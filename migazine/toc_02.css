@@ -102,8 +102,16 @@ p {
   letter-spacing: 0.2rem;
 }
 .toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-list {
-  line-height: 2rem;
+  line-height: 1.5rem;
   padding-inline-start: 0px;
+  font-size: 9pt;
+  text-align: justify;
+  word-break: break-all;
+}
+.toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-list span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 .toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-list li {
   margin: 0;

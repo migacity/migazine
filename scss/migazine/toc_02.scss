@@ -111,8 +111,22 @@ p {
                     letter-spacing: 0.2rem;
                 }
                 .toc-list {
-                    line-height: 2rem;
+                    line-height: 1.5rem;
                     padding-inline-start: 0px;
+                    font-size: 9pt;
+
+                    //columns: 2;
+                    //column-gap: 8mm;
+                    //column-fill: auto;
+
+                    text-align: justify;
+                    word-break: break-all;
+
+                    span {
+                        display: block;
+                        font-weight:bold;
+                        margin-bottom: 1rem;
+                    }
 
                     li {
                         margin: 0;
