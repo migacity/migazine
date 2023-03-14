@@ -1,0 +1,154 @@
+@page illust-spread-noborder_01 {
+  margin: 0;
+}
+.illust-spread-noborder_01 {
+  page: illust-spread-noborder_01;
+  /*
+  .chapter-warapper {
+      position: relative;
+      top: 3.5mm * 4;
+      left: -3.5mm * 2;
+      transform:rotate(90deg);
+      display: inline-block;
+      //width: 188mm;
+      .chapter-bar {
+          position: relative;
+          display: inline-block;
+          background-color: black;
+          //border-top: 0.5mm solid black;
+          //border-left: 0.5mm solid black;
+          //border-right: 0.5mm solid black;
+          width: 3.5mm * 11;
+          height: 3.5mm * 6;
+          top: 4mm + 3.5mm * 1;
+          left: 3mm + 3.5mm * 2;
+          padding: 0.3mm;
+      }
+      .chapter-number {
+          position: relative;
+          display: inline-block;
+          top: 0;
+          line-height: 3.5mm * 3;
+          width: 100%;
+          text-align: center;
+          color: white;
+          font-size: 1.2rem;
+          letter-spacing: 0.05rem;
+          font-weight: 700;
+          margin-bottom: 1rem;
+      }
+      .chapter-title {
+          position: relative;
+          top: 3.5mm * 2;
+          width: 3.5mm * 12;
+          height: 3.5mm * 2;
+          line-height: 3.5mm * 2;
+          text-align: right;
+          font-size: 6pt;
+          //padding-right: 3mm + 7mm;
+          //line-height: 1.5rem;
+      }
+      .chapter-text {
+          position: relative;
+          top: 3.5mm * 2;
+          width: 3.5mm * 12;
+          height: 4mm + 3.5mm * 2;
+          text-align: right;
+          //padding-right: 3mm + 7mm;
+          line-height: 1.5rem;
+      }
+  }*/
+}
+.illust-spread-noborder_01 .illust-image-left {
+  position: absolute;
+  width: 188mm;
+  height: 263mm;
+  background-size: cover;
+  background-position: left;
+}
+.illust-spread-noborder_01 .illust-image-left img {
+  width: 188mm;
+  height: 263mm;
+  object-fit: cover;
+  object-position: left;
+}
+.illust-spread-noborder_01 .illust-image-right {
+  position: absolute;
+  width: 188mm;
+  height: 263mm;
+  background-size: cover;
+  background-position: right;
+}
+.illust-spread-noborder_01 .page-header {
+  position: relative;
+  color: white;
+  top: 0;
+  left: 115mm;
+  width: 63mm;
+  border-left: 0.5mm solid white;
+  padding-top: 7.5mm;
+  padding-left: 3.5mm;
+  padding-right: 3.5mm;
+}
+.illust-spread-noborder_01 .page-header .illust-author {
+  font-family: "Inter", "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1;
+  vertical-align: top;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.illust-spread-noborder_01 .page-header .social {
+  font-family: "Inter", sans-serif;
+  font-size: 6pt;
+}
+.illust-spread-noborder_01 .chapter-warapper {
+  position: absolute;
+  top: 35mm;
+  left: 157.5mm;
+  transform: rotate(270deg);
+  display: inline-block;
+}
+.illust-spread-noborder_01 .chapter-warapper .chapter-bar {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  width: 38.5mm;
+  height: 21mm;
+  top: 7.5mm;
+  left: 10mm;
+  padding: 0.3mm;
+}
+.illust-spread-noborder_01 .chapter-warapper .chapter-number {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  line-height: 10.5mm;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.illust-spread-noborder_01 .chapter-warapper .chapter-title {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 7mm;
+  line-height: 7mm;
+  text-align: right;
+  font-size: 6pt;
+}
+.illust-spread-noborder_01 .chapter-warapper .chapter-text {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 11mm;
+  text-align: right;
+  line-height: 1.5rem;
+}
+
+/*# sourceMappingURL=illust-spread-noborder_01.css.map */

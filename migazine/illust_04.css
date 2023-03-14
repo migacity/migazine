@@ -59,6 +59,16 @@
       }
   }*/
 }
+.illust_04 .hidden-page-number {
+  display: inline-block;
+  width: 3.5mm;
+  height: 3.5mm;
+  background-color: red;
+  visibility: hidden;
+}
+.illust_04 .hidden-page-number:before {
+  content: counter(page);
+}
 .illust_04 .page-header {
   position: absolute;
   top: 0;
@@ -89,10 +99,33 @@
 }
 .illust_04 .illust-image {
   width: 154mm;
-  margin: 21.5mm auto 0;
+  margin-top: 21.5mm;
+  margin-left: 17mm;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.illust_04 .illust-image-page-left {
+  width: 154mm;
+  margin-top: 21.5mm;
+  margin-left: 13.5mm;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.illust_04 .illust-image-page-right {
+  width: 154mm;
+  margin-top: 21.5mm;
+  margin-left: 20.5mm;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 .illust_04 .illust-message {
   margin-left: 17mm;
+}
+.illust_04 .illust-message-page-left {
+  margin-left: 13.5mm;
+}
+.illust_04 .illust-message-page-right {
+  margin-left: 20.5mm;
 }
 .illust_04 .illust-image-middle {
   display: table;
@@ -107,35 +140,57 @@
 .illust_04 .illust-image-middle .illust-image-column .illust-message {
   margin-left: 0;
 }
+.illust_04 .illust-image-middle-page-right {
+  display: table;
+  width: 154mm;
+  height: 200mm;
+  margin-top: 21.5mm;
+  margin-left: 20.5mm;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.illust_04 .illust-image-middle-page-right .illust-image-column {
+  display: table-cell;
+  vertical-align: middle;
+}
+.illust_04 .illust-image-middle-page-right .illust-image-column .illust-message {
+  margin-left: 0;
+}
 .illust_04 .illust-image-right {
   width: 154mm;
   margin: 18mm auto 0;
 }
+.illust_04 .illust-image-right-page-right {
+  width: 154mm;
+  margin-top: 18mm;
+  margin-left: 20.5mm;
+  margin-right: auto;
+  margin-bottom: 0;
+}
 .illust_04 .chapter-warapper {
   position: absolute;
   top: 35mm;
-  left: 157.5mm;
+  left: 161mm;
   transform: rotate(270deg);
   display: inline-block;
 }
 .illust_04 .chapter-warapper .chapter-bar {
   position: relative;
   display: inline-block;
-  background-color: black;
   width: 38.5mm;
   height: 21mm;
   top: 7.5mm;
   left: 10mm;
-  padding: 0.3mm;
+  padding: 0 0.3mm 0.3mm 0.3mm;
+  border-left: 0.5mm solid black;
+  border-right: 0.5mm solid black;
 }
 .illust_04 .chapter-warapper .chapter-number {
   position: relative;
   display: inline-block;
   top: 0;
-  line-height: 10.5mm;
   width: 100%;
   text-align: center;
-  color: white;
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
   font-weight: 700;

@@ -8,7 +8,7 @@ class: illust_04
 <div class="illust-author">masato</div>
 <div class="social">https://twitter.com/xxx</div>
 </div>
-<div class="illust-image">
+<div class="illust-image-page-left">
 <img src="image/illust-masato.jpg" />
 </div>
-<div class='illust-message'>xxx</div>
+<!-- <div class='illust-message'>xxx</div> -->

@@ -59,7 +59,7 @@ p {
 }
 .toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-cover-illust {
   flex: 1;
-  margin-bottom: 14mm;
+  margin-bottom: 7mm;
 }
 .toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-cover-illust .toc-cover-illust-wrapper {
   display: flex;
@@ -73,11 +73,11 @@ p {
 }
 .toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-info {
   flex: 2;
-  margin-bottom: 14mm;
+  margin-bottom: 7mm;
 }
 .toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-contribution {
   flex: 1;
-  margin-bottom: 14mm;
+  margin-bottom: 7mm;
 }
 .toc_02 .toc-wrapper .toc-right .toc-right-wrapper .toc-contribution .toc-contribution-wrapper {
   display: flex;

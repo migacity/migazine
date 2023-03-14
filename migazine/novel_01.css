@@ -1,0 +1,206 @@
+@page text-jquery_01 {
+  margin-top: 14.5mm;
+  margin-bottom: 31mm;
+}
+@page text-jquery_01:left {
+  @top-left-corner {
+    content: counter(page);
+    top: 234.5mm;
+    left: 13.5mm;
+    font-size: 0.6rem;
+    height: 3.5mm;
+    width: 3.5mm;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+@page text-jquery_01:right {
+  @top-left-corner {
+    content: counter(page);
+    top: 234.5mm;
+    left: 178mm;
+    font-size: 0.6rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+.text-jquery_01 {
+  page: text-jquery_01;
+  box-sizing: border-box;
+  max-width: 140mm;
+  margin: 0 auto;
+}
+.text-jquery_01 .text-header {
+  font-family: "Noto Serif JP";
+  display: block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+  padding: 1.6rem 0;
+}
+.text-jquery_01 .text-header .text-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.text-jquery_01 .text-header .text-author {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.text-jquery_01 .text-main {
+  font-family: "Noto Serif JP";
+  column-count: 2;
+  column-gap: 8mm;
+  column-fill: auto;
+  text-align: justify;
+  word-break: break-all;
+  width: 150mm;
+  height: 200mm;
+}
+.text-jquery_01 .text-main p {
+  text-indent: 1rem;
+  margin-bottom: 0.05rem;
+}
+.text-jquery_01 .social {
+  position: absolute;
+  top: 0;
+  left: 110mm;
+}
+.text-jquery_01 h1 {
+  margin-top: 0;
+}
+.text-jquery_01 h2 {
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+}
+.text-jquery_01 section {
+  margin-bottom: 2rem;
+}
+.text-jquery_01 ul,
+.text-jquery_01 ol {
+  padding-inline-start: 1rem;
+}
+.text-jquery_01 li {
+  margin: 0;
+  padding: 0;
+}
+.text-jquery_01 figure {
+  margin: 0;
+}
+.text-jquery_01 figure figcaption {
+  text-align: left;
+  margin-top: 0.5rem;
+  font-size: 9pt;
+  margin-bottom: 0;
+}
+.text-jquery_01 img {
+  float: left;
+  margin-top: 0mm;
+  margin-left: 0mm;
+  max-width: 146mm;
+}
+.text-jquery_01 pre {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.text-jquery_01 .chapter-warapper-left {
+  font-family: "Inter", "Noto Sans JP";
+  position: absolute;
+  top: 14mm;
+  margin-left: -31.5mm;
+  transform: rotate(90deg);
+  display: inline-block;
+}
+.text-jquery_01 .chapter-warapper-left .chapter-bar {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  width: 38.5mm;
+  height: 21mm;
+  top: 7.5mm;
+  left: 10mm;
+  padding: 0.3mm;
+}
+.text-jquery_01 .chapter-warapper-left .chapter-number {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  line-height: 10.5mm;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.text-jquery_01 .chapter-warapper-left .chapter-title {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 7mm;
+  line-height: 7mm;
+  text-align: right;
+  font-size: 6pt;
+}
+.text-jquery_01 .chapter-warapper-left .chapter-text {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 11mm;
+  text-align: right;
+  line-height: 1.5rem;
+}
+.text-jquery_01 .chapter-warapper-right {
+  position: absolute;
+  top: 35mm;
+  left: 157.5mm;
+  transform: rotate(270deg);
+  display: inline-block;
+}
+.text-jquery_01 .chapter-warapper-right .chapter-bar {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  width: 38.5mm;
+  height: 21mm;
+  top: 7.5mm;
+  left: 10mm;
+  padding: 0.3mm;
+}
+.text-jquery_01 .chapter-warapper-right .chapter-number {
+  position: relative;
+  display: inline-block;
+  top: 0;
+  line-height: 10.5mm;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.text-jquery_01 .chapter-warapper-right .chapter-title {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 7mm;
+  line-height: 7mm;
+  text-align: right;
+  font-size: 6pt;
+}
+.text-jquery_01 .chapter-warapper-right .chapter-text {
+  position: relative;
+  top: 7mm;
+  width: 42mm;
+  height: 11mm;
+  text-align: right;
+  line-height: 1.5rem;
+}
+
+/*# sourceMappingURL=novel_01.css.map */

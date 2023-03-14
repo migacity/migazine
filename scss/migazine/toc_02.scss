@@ -68,7 +68,7 @@ p {
                 height: 263mm - 20mm;
                 .toc-cover-illust {
                     flex:1;
-                    margin-bottom: 3.5mm * 4;
+                    margin-bottom: 3.5mm * 2;
                     .toc-cover-illust-wrapper {
                         display: flex;
                         .toc-cover-illust-left {
@@ -82,11 +82,11 @@ p {
                 }
                 .toc-info {
                     flex:2;
-                    margin-bottom: 3.5mm * 4;
+                    margin-bottom: 3.5mm * 2;
                 }
                 .toc-contribution {
                     flex:1;
-                    margin-bottom: 3.5mm * 4;
+                    margin-bottom: 3.5mm * 2;
                     .toc-contribution-wrapper {
                         display: flex;
                         .toc-url {

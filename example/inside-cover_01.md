@@ -2,6 +2,7 @@
 class: 'inside-cover_01'
 ---
 
-# MIGAZINE No.2
-
-Draw, make, create!
+<div class="inside-cover-wrapper">
+<h2>MIGAZINE No.2</h2>
+<p>Draw, make, create!</p>
+</div>

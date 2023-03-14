@@ -30,12 +30,12 @@
 }
 .text_01 {
   page: text_01;
-  font-family: "Noto Serif JP";
   box-sizing: border-box;
   max-width: 140mm;
   margin: 0 auto;
 }
 .text_01 .text-header {
+  font-family: "Noto Serif JP";
   display: block;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -52,10 +52,13 @@
   font-weight: 700;
 }
 .text_01 .text-main {
+  font-family: "Noto Serif JP";
   columns: 2;
   column-gap: 8mm;
+  column-fill: auto;
   text-align: justify;
   word-break: break-all;
+  line-height: 5mm;
 }
 .text_01 .text-main p {
   text-indent: 1rem;
@@ -70,8 +73,12 @@
   margin-top: 0;
 }
 .text_01 h2 {
+  margin-top: 5mm;
+  margin-bottom: 5mm;
+  line-height: 5mm;
+}
+.text_01 h2.first {
   margin-top: 0;
-  margin-bottom: 1.6rem;
 }
 .text_01 section {
   margin-bottom: 2rem;
@@ -100,8 +107,10 @@
   max-width: 146mm;
 }
 .text_01 pre {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 5mm;
+  margin-bottom: 5mm;
+  line-height: 5mm;
+  padding: 2.5mm;
 }
 .text_01 .chapter-warapper-left {
   font-family: "Inter", "Noto Sans JP";

@@ -23,10 +23,9 @@
     content: counter(page);
     top: 4mm + 3.5mm * 71;
     left: 3mm + 3.5mm * 3;
-    //left: 94mm;
     font-size: 0.6rem;
-    height: 3.5mm;
-    width: 3.5mm;
+    height: 5mm;
+    width: 5mm;
     text-align: center;
     vertical-align: middle;
     background-color: rgba(255,255,255, 60%);
@@ -39,8 +38,8 @@
     top: 4mm + 3.5mm * 71;
     left: 3mm + 3.5mm * 50;
     font-size: 0.6rem;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 5mm;
+    width: 5mm;
     text-align: center;
     vertical-align: middle;
     background-color: rgba(255,255,255, 60%);
@@ -59,8 +58,10 @@ html {
 @import 'illust_01';
 @import 'illust_02';
 @import 'illust_04';
+@import 'illust-spread-noborder_01';
 @import 'colophon_01';
 @import 'text_01';
+@import 'text-jquery_01';
 @import 'chapter_01';
 @import 'chapter_02';
 @import 'chapter_03';

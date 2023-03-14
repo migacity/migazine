@@ -1,0 +1,181 @@
+@page illust-spread-noborder_01 {
+    margin: 0;
+}
+
+.illust-spread-noborder_01 {
+    page: illust-spread-noborder_01;
+
+    .illust-image-left {
+        position: absolute;
+        width: 188mm;
+        height: 263mm;
+        background-size: cover;
+        background-position: left;
+        img {
+            width: 188mm;
+            height: 263mm;
+            object-fit: cover;
+            object-position: left;
+        }
+    }
+
+    .illust-image-right {
+        position: absolute;
+        width: 188mm;
+        height: 263mm;
+        background-size: cover;
+        background-position: right;
+        // img {
+        //     width: 188mm;
+        //     height: 263mm;
+        //     object-fit: cover;
+        //     object-position: right;
+        // }
+    }
+
+    .page-header {
+        position: relative;
+        color: white;
+        top: 0;
+        left: 3mm + 3.5mm * 32;
+        width: 3.5mm * 18;
+        border-left: 0.5mm solid white;
+        padding-top: 4mm + 3.5mm;
+        padding-left: 3.5mm;
+        padding-right: 3.5mm;
+
+        .illust-author {
+            //position: absolute;
+            font-family: "Inter", "Noto Sans JP", sans-serif;
+            font-weight: 700;
+            font-size: 1.2rem;
+            line-height: 1;
+            vertical-align: top;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        .social {
+            //position: absolute;
+            font-family: "Inter", sans-serif;
+            font-size: 6pt;
+        }
+    }
+
+    
+
+    //--- Left
+
+    /*
+    .chapter-warapper {
+        position: relative;
+        top: 3.5mm * 4;
+        left: -3.5mm * 2;
+        transform:rotate(90deg);
+        display: inline-block;
+        //width: 188mm;
+        .chapter-bar {
+            position: relative;
+            display: inline-block;
+            background-color: black;
+            //border-top: 0.5mm solid black;
+            //border-left: 0.5mm solid black;
+            //border-right: 0.5mm solid black;
+            width: 3.5mm * 11;
+            height: 3.5mm * 6;
+            top: 4mm + 3.5mm * 1;
+            left: 3mm + 3.5mm * 2;
+            padding: 0.3mm;
+        }
+        .chapter-number {
+            position: relative;
+            display: inline-block;
+            top: 0;
+            line-height: 3.5mm * 3;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            letter-spacing: 0.05rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .chapter-title {
+            position: relative;
+            top: 3.5mm * 2;
+            width: 3.5mm * 12;
+            height: 3.5mm * 2;
+            line-height: 3.5mm * 2;
+            text-align: right;
+            font-size: 6pt;
+            //padding-right: 3mm + 7mm;
+            //line-height: 1.5rem;
+        }
+        .chapter-text {
+            position: relative;
+            top: 3.5mm * 2;
+            width: 3.5mm * 12;
+            height: 4mm + 3.5mm * 2;
+            text-align: right;
+            //padding-right: 3mm + 7mm;
+            line-height: 1.5rem;
+        }
+    }*/
+
+    //--- Right
+
+    .chapter-warapper {
+        position: absolute;
+        top: 3.5mm * 10;
+        left: 3.5mm * 45;
+        transform:rotate(270deg);
+        display: inline-block;
+        //width: 188mm;
+        .chapter-bar {
+            position: relative;
+            display: inline-block;
+            background-color: black;
+            //border-top: 0.5mm solid black;
+            //border-left: 0.5mm solid black;
+            //border-right: 0.5mm solid black;
+            width: 3.5mm * 11;
+            height: 3.5mm * 6;
+            top: 4mm + 3.5mm * 1;
+            left: 3mm + 3.5mm * 2;
+            padding: 0.3mm;
+        }
+        .chapter-number {
+            position: relative;
+            display: inline-block;
+            top: 0;
+            line-height: 3.5mm * 3;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            letter-spacing: 0.05rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .chapter-title {
+            position: relative;
+            top: 3.5mm * 2;
+            width: 3.5mm * 12;
+            height: 3.5mm * 2;
+            line-height: 3.5mm * 2;
+            text-align: right;
+            font-size: 6pt;
+            //padding-right: 3mm + 7mm;
+            //line-height: 1.5rem;
+        }
+        .chapter-text {
+            position: relative;
+            top: 3.5mm * 2;
+            width: 3.5mm * 12;
+            height: 4mm + 3.5mm * 2;
+            text-align: right;
+            //padding-right: 3mm + 7mm;
+            line-height: 1.5rem;
+        }
+    }
+}

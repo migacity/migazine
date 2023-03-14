@@ -2,29 +2,39 @@
 title: title
 author: you know who
 class: illust_04
+script:
+  - type: 'text/javascript'
+    src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'
 ---
 
+<script>
+  /*
+$(function(){
+    var page_number = $('.dolphilia .hidden-page-number').text();
+    page_number = Number(page_number);
+    if (page_number % 2 === 0) {
+
+    } else {
+      $('.dolphilia .hidden-page-number').css
+    }
+});*/
+</script>
+
+<div class="dolphilia">
+<div class="hidden-page-number"></div>
 <div class="chapter-warapper">
   <div class="chapter-bar">
     <div class="chapter-number">illustrations</div>
   </div>
-  <!--<div class="chapter-title">イラストレーション</div>-->
-  <!--<div class="chapter-text">Illust</div>-->
 </div>
-
 <div class="page-header">
 <div class="illust-author">dolphilia</div>
 <div class="social">
 https://dolphilia.com
 </div>
-<!--<div class='illust-title' style="">ここがわたしの場所。</div>-->
 </div>
-<div class="illust-image">
+<div class="illust-image-page-right">
 <img src="image/illust-dolphilia.png" />
 </div>
-<div class='illust-message'>森に佇む</div>
-
-<!--<img src="forest-girl.png" />-->
-
-
-
+<!-- <div class='illust-message-page-right'>森に佇む</div> -->
+</div>

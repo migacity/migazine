@@ -1,19 +1,29 @@
 @page colophon_01 {}
 .colophon_01 {
   page: colophon_01;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+}
+.colophon_01 .colophon-wrapper {
+  display: inline-block;
+  position: absolute;
+  height: 42mm;
+  top: 221mm;
+  left: 101mm;
+  border-left: 0.5mm solid black;
+  padding-left: 3.5mm;
+}
+.colophon_01 h2 {
+  margin: 0;
+  margin-bottom: 3.5mm;
 }
 .colophon_01 ul {
   width: fit-content;
   list-style-type: none;
   text-align: left;
   padding-left: 0;
+}
+.colophon_01 a {
+  color: black;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=colophon_01.css.map */

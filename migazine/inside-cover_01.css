@@ -1,12 +1,15 @@
 @page inside-cover_01 {}
 .inside-cover_01 {
   page: inside-cover;
+}
+.inside-cover_01 .inside-cover-wrapper {
+  display: inline-block;
+  position: absolute;
+  top: 116mm;
+  left: 73mm;
+  padding: 3.5mm 7mm;
+  border: 0.5mm solid black;
   text-align: center;
-  display: flex;
-  margin: auto;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
 /*# sourceMappingURL=inside-cover_01.css.map */
