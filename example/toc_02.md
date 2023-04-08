@@ -41,11 +41,11 @@ class: "toc_02"
                     <li><a href="illust-dolphilia.html">dolphilia</a></li>
                     <li><a href="illust-yusan.html">ゆぅさん</a></li>
                     <li><a href="illust-mirakure.html">ミラクレ</a></li>
-                    <li><a href="illust-masato.html">masato</a></li>
-                    <li><a href="illust-hozuki.html">相葉ほおずき</a></li>
+                    <li><a href="illust-masato.html">masato koseki</a></li>
+                    <li><a href="illust-hozuki.html">相羽ほおずき</a></li>
                     <li><a href="illust-kotsubaki.html">つばきこ</a></li>
                     <li><a href="illust-ruri.html">青石るり</a></li>
-                    <li><a href="illust-tattsu.html">たっつー421</a></li>
+                    <li><a href="illust-tattsu.html">たっつー412</a></li>
                     <li><a href="illust-senzo.html">せんぞを</a></li>
                     <li><a href="illust-kepi.html">けーぴ</a></li>
                     <li><a href="illust-uroko.html">うろこ</a></li>
@@ -60,13 +60,13 @@ class: "toc_02"
             </div>
             <div class="toc-contribution">
                 <div class="toc-title">電子版について</div>
-                <p>本誌の電子版は無償で提供されています。詳しくはURLまたはQRコードをご覧ください。</p>
+                <p>本誌の電子版は無償で提供されています。詳しくはURLまたはQRコードからご確認ください。</p>
                 <div class="toc-contribution-wrapper">
                     <div class="toc-url">
-                        <p>https://forms.migazine.example/</p>
+                        <p>https://dolphilia.booth.pm/items/4660946</p>
                     </div>
                     <div class="toc-qr">
-                        <img src="image/QR_747040.png" />
+                        <img src="image/QR_333922.png" />
                     </div>
                 </div>
             </div>

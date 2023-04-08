@@ -6,8 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&display=swap');
 
 @page {
-  size: 188mm 263mm; // JIS-B5
+  // 塗りたしオン
+  size: 188mm 263mm;
   margin: 0;
+
+  // 塗り足しオフ
+  //size: JIS-B5;
+  //margin: -3mm;
 
   background-position: center;
   background-size: 100%;

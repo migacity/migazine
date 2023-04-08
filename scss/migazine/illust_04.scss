@@ -1,5 +1,4 @@
 @page illust-04 {
-    margin: 0;
 }
 
 .illust_04 {
@@ -95,10 +94,28 @@
         }
     }
 
+    .illust-image-middle-page-left {
+        display: table;
+        width: 3.5mm * 44;
+        height: 220mm;
+        margin-top: calc(4mm + 3.5mm * 5);
+        margin-left: 3mm + 3.5mm * 3;
+        margin-right: auto;
+        margin-bottom: 0;
+
+        .illust-image-column {
+            display: table-cell;
+            vertical-align: middle;
+            .illust-message {
+                margin-left: 0;
+            }
+        }
+    }
+
     .illust-image-middle-page-right {
         display: table;
         width: 3.5mm * 44;
-        height: 200mm;
+        height: 220mm;
         margin-top: calc(4mm + 3.5mm * 5);
         margin-left: 3mm + 3.5mm * 5;
         margin-right: auto;

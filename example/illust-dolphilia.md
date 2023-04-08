@@ -21,7 +21,6 @@ $(function(){
 </script>
 
 <div class="dolphilia">
-<div class="hidden-page-number"></div>
 <div class="chapter-warapper">
   <div class="chapter-bar">
     <div class="chapter-number">illustrations</div>
@@ -33,8 +32,10 @@ $(function(){
 https://dolphilia.com
 </div>
 </div>
-<div class="illust-image-page-right">
+<div class="illust-image-middle-page-right">
+<div class="illust-image-column">
 <img src="image/illust-dolphilia.png" />
+</div>
 </div>
 <!-- <div class='illust-message-page-right'>森に佇む</div> -->
 </div>

@@ -1,6 +1,4 @@
-@page illust-04 {
-  margin: 0;
-}
+@page illust-04 {}
 .illust_04 {
   page: illust_04;
   /*
@@ -140,10 +138,26 @@
 .illust_04 .illust-image-middle .illust-image-column .illust-message {
   margin-left: 0;
 }
+.illust_04 .illust-image-middle-page-left {
+  display: table;
+  width: 154mm;
+  height: 220mm;
+  margin-top: 21.5mm;
+  margin-left: 13.5mm;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.illust_04 .illust-image-middle-page-left .illust-image-column {
+  display: table-cell;
+  vertical-align: middle;
+}
+.illust_04 .illust-image-middle-page-left .illust-image-column .illust-message {
+  margin-left: 0;
+}
 .illust_04 .illust-image-middle-page-right {
   display: table;
   width: 154mm;
-  height: 200mm;
+  height: 220mm;
   margin-top: 21.5mm;
   margin-left: 20.5mm;
   margin-right: auto;
